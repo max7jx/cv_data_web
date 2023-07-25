@@ -2,7 +2,8 @@ import React from 'react';
 import './App.css';
 import Header from './components/Header';
 import AboutMe from './components/AboutMe';
-import Skills from './components/Skills';
+import ProfessionalSummary from './components/ProfessionalSummary';
+import TechnicalSkills from './components/TechnicalSkills';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -11,7 +12,8 @@ function App() {
     <div className="app">
       <Header />
       <AboutMe />
-      <Skills />
+      <ProfessionalSummary />
+      <TechnicalSkills />
       <Contact />
       <Footer />
     </div>

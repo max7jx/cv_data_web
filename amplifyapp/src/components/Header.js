@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-scroll';
-import { AppBar, Toolbar, Typography, Button, IconButton } from '@mui/material';
+import { AppBar, Toolbar, Typography } from '@mui/material';
 import { styled } from '@mui/material/styles';
-import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 import '../styles/Header.css'; // Import the custom header styles
+import ArrowButton from './ArrowButton'; // Import the ArrowButton component
 
 const HeaderAppBar = styled(AppBar)(({ theme }) => ({
   borderBottom: 'none', // Remove the bottom border
@@ -25,11 +25,11 @@ const SectionLink = styled(Link)(({ theme }) => ({
 
 const Header = () => {
   return (
-    <HeaderAppBar position="static" className="header"> {/* Use the "header" class for the white background */}
+    <HeaderAppBar position="static" className="header">
       <Toolbar style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <Typography variant="h6">Your Website Name</Typography>
-        <nav className="navbar"> {/* Use the "navbar" class to center the links */}
-          <ul className="nav-list" style={{ display: 'flex' }}> {/* Use flex to align capsules */}
+        <nav className="navbar">
+          <ul className="nav-list" style={{ display: 'flex' }}>
             <li className="nav-item">
               <SectionLink
                 to="about"
@@ -76,9 +76,8 @@ const Header = () => {
             </li>
           </ul>
         </nav>
-        <IconButton>
-          <ArrowUpwardIcon style={{ fontSize: '2rem' }} />
-        </IconButton>
+        {/* Remove the ArrowIcon and use the ArrowButton component */}
+        <ArrowButton />
       </Toolbar>
     </HeaderAppBar>
   );
