@@ -1,0 +1,97 @@
+/* App.css */
+  
+  /* Add your custom styles for the header here */
+  .header {
+    background-color: #333;
+    padding: 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin: 0 10px;
+  }
+  
+  .nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .nav-link:hover {
+    color: #ff00ff; /* Add your desired hover color here */
+  }
+  
+/* App.css */
+    body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  .about-me,
+  .skills,
+  .contact {
+    min-height: 100vh;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  .about-me h2,
+  .skills h2,
+  .contact h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .about-me p,
+  .skills ul,
+  .contact p {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+  }
+  
+  .skills ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .skills li {
+    margin-bottom: 5px;
+  }
+  
+  .footer {
+    text-align: center;
+    background-color: #333;
+    color: #ffffff;
+    padding: 10px;
+  }
+  
+  .footer p {
+    font-size: 14px;
+    font-weight: normal;
+  }
+  

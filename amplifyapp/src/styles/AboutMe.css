@@ -1,0 +1,18 @@
+/* components/AboutMe.css */
+#about {
+    position: relative;
+    height: calc(100vh - 64px); /* Subtract the height of the header (adjust as needed) */
+    width: 100%;
+    background-color: #3f2b48;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 64px; /* Add margin to push the section below the header */
+  }
+  
+  .section-content {
+    max-width: 800px;
+    padding: 2rem;
+    text-align: center;
+  }
+  

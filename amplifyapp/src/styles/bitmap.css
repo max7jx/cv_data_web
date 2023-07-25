@@ -1,0 +1,7 @@
+/* styles/bitmap.css */
+.bitmap {
+    width: 1138px;
+    height: 486px;
+    flex-shrink: 0;
+    background: url(/public/images/bitmap.png) lightgray 0px 0px / 100% 100% no-repeat;
+  }
