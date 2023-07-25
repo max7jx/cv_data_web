@@ -33,8 +33,7 @@
     color: #ff00ff; /* Add your desired hover color here */
   }
   
-/* App.css */
-    body {
+  body {
     margin: 0;
     font-family: 'Arial', sans-serif;
     background-color: #ffffff;
@@ -46,7 +45,6 @@
     flex-direction: column;
     align-items: center;
   }
-  
   
   .about-me,
   .skills,
@@ -81,17 +79,5 @@
   
   .skills li {
     margin-bottom: 5px;
-  }
-  
-  .footer {
-    text-align: center;
-    background-color: #333;
-    color: #ffffff;
-    padding: 10px;
-  }
-  
-  .footer p {
-    font-size: 14px;
-    font-weight: normal;
   }
   
